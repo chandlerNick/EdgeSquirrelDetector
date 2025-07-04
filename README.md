@@ -27,6 +27,14 @@ Total counts:
 - 2000 positive
 - 4000 negative
 
+To get the dataset, run:
+
+`uv run python3 src/build_dataset.py`
+
+`uv run python3 src/resize_dataset.py`
+
+`uv run python3 src/augment_dataset.py`
+
 ## Models
 
 
