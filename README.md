@@ -24,8 +24,8 @@ Data Augmentation, for each image:
 - rotate 270 degrees
 
 Total counts:
-- 2000 positive
-- 4000 negative
+- 3000 positive
+- 6000 negative
 
 To get the dataset, run:
 
