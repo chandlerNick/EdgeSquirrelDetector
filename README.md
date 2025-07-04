@@ -1,6 +1,41 @@
 # EdgeSquirrelDetector
 
-Plan:
+In this repo, I examine edge computer vision methods to detect two species of squirrel that often disrupt birdfeeders in Washington. These squirrels are the Eastern Gray Squirrel (Sciurus carolinensis) and the Western Gray Squirrel (Sciurus griseus) most commonly.
+
+## Data
+
+All of size 224 x 224
+
+Raw Data:
+- 500 images - Sciurus carolinensis - Positive
+- 500 images - Sciurus griseus - Positive
+
+- 500 images - Robins - Negative
+- 500 images - Chickadees - Negative
+- 500 images - Sparrows - Negative
+- 500 images - Crows - Negative
+
+- 1000 positive
+- 2000 negative
+
+Data Augmentation, for each image:
+- rotate 180 degrees
+- rotate 90 degrees
+- rotate 270 degrees
+
+Total counts:
+- 2000 positive
+- 4000 negative
+
+## Models
+
+
+
+## Results
+
+In the `models` directory, you can access both the full and edge-ready models.
+
+## Plan:
 
 ### 1. Figure out hardware to use
 

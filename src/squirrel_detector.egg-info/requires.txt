@@ -1,0 +1,14 @@
+opencv-python>=4.5
+numpy>=1.21
+tensorflow>=2.9
+matplotlib>=3.4
+pyinaturalist>=0.11
+requests>=2.26
+tqdm>=4.62
+
+[dev]
+pytest
+ruff
+mypy
+jupyter
+build
